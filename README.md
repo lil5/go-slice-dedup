@@ -1,3 +1,16 @@
+# I found an alternative: lo
+
+https://github.com/samber/lo
+
+```go
+import (
+  "github.com/samber/lo"
+)
+
+names := lo.Uniq[string]([]string{"Samuel", "Marc", "Samuel"})
+// []string{"Samuel", "Marc"}
+```
+
 # Go Slice Deduplicate using Generics
 
 Remove duplicates for a slice with the use of generics
